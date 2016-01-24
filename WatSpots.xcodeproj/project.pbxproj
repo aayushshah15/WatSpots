@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		784481B71C54B39A0073EB2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784481B61C54B39A0073EB2F /* AppDelegate.swift */; };
+		784481B91C54B39A0073EB2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784481B81C54B39A0073EB2F /* ViewController.swift */; };
+		784481BC1C54B39A0073EB2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784481BA1C54B39A0073EB2F /* Main.storyboard */; };
+		784481BE1C54B39A0073EB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784481BD1C54B39A0073EB2F /* Assets.xcassets */; };
+		784481C11C54B39A0073EB2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784481BF1C54B39A0073EB2F /* LaunchScreen.storyboard */; };
+		784481CC1C54B39A0073EB2F /* WatSpotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784481CB1C54B39A0073EB2F /* WatSpotsTests.swift */; };
+		784481D71C54B39A0073EB2F /* WatSpotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784481D61C54B39A0073EB2F /* WatSpotsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		784481C81C54B39A0073EB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784481AB1C54B39A0073EB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 784481B21C54B39A0073EB2F;
+			remoteInfo = WatSpots;
+		};
+		784481D31C54B39A0073EB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784481AB1C54B39A0073EB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 784481B21C54B39A0073EB2F;
+			remoteInfo = WatSpots;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		784481B31C54B39A0073EB2F /* WatSpots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatSpots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		784481B61C54B39A0073EB2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		784481B81C54B39A0073EB2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		784481BB1C54B39A0073EB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		784481BD1C54B39A0073EB2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		784481C01C54B39A0073EB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		784481C21C54B39A0073EB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784481C71C54B39A0073EB2F /* WatSpotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatSpotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		784481CB1C54B39A0073EB2F /* WatSpotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatSpotsTests.swift; sourceTree = "<group>"; };
+		784481CD1C54B39A0073EB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784481D21C54B39A0073EB2F /* WatSpotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatSpotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		784481D61C54B39A0073EB2F /* WatSpotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatSpotsUITests.swift; sourceTree = "<group>"; };
+		784481D81C54B39A0073EB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		784481B01C54B39A0073EB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784481C41C54B39A0073EB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784481CF1C54B39A0073EB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		784481AA1C54B39A0073EB2F = {
+			isa = PBXGroup;
+			children = (
+				784481B51C54B39A0073EB2F /* WatSpots */,
+				784481CA1C54B39A0073EB2F /* WatSpotsTests */,
+				784481D51C54B39A0073EB2F /* WatSpotsUITests */,
+				784481B41C54B39A0073EB2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		784481B41C54B39A0073EB2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				784481B31C54B39A0073EB2F /* WatSpots.app */,
+				784481C71C54B39A0073EB2F /* WatSpotsTests.xctest */,
+				784481D21C54B39A0073EB2F /* WatSpotsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		784481B51C54B39A0073EB2F /* WatSpots */ = {
+			isa = PBXGroup;
+			children = (
+				784481B61C54B39A0073EB2F /* AppDelegate.swift */,
+				784481B81C54B39A0073EB2F /* ViewController.swift */,
+				784481BA1C54B39A0073EB2F /* Main.storyboard */,
+				784481BD1C54B39A0073EB2F /* Assets.xcassets */,
+				784481BF1C54B39A0073EB2F /* LaunchScreen.storyboard */,
+				784481C21C54B39A0073EB2F /* Info.plist */,
+			);
+			path = WatSpots;
+			sourceTree = "<group>";
+		};
+		784481CA1C54B39A0073EB2F /* WatSpotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				784481CB1C54B39A0073EB2F /* WatSpotsTests.swift */,
+				784481CD1C54B39A0073EB2F /* Info.plist */,
+			);
+			path = WatSpotsTests;
+			sourceTree = "<group>";
+		};
+		784481D51C54B39A0073EB2F /* WatSpotsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				784481D61C54B39A0073EB2F /* WatSpotsUITests.swift */,
+				784481D81C54B39A0073EB2F /* Info.plist */,
+			);
+			path = WatSpotsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		784481B21C54B39A0073EB2F /* WatSpots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784481DB1C54B39A0073EB2F /* Build configuration list for PBXNativeTarget "WatSpots" */;
+			buildPhases = (
+				784481AF1C54B39A0073EB2F /* Sources */,
+				784481B01C54B39A0073EB2F /* Frameworks */,
+				784481B11C54B39A0073EB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatSpots;
+			productName = WatSpots;
+			productReference = 784481B31C54B39A0073EB2F /* WatSpots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		784481C61C54B39A0073EB2F /* WatSpotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784481DE1C54B39A0073EB2F /* Build configuration list for PBXNativeTarget "WatSpotsTests" */;
+			buildPhases = (
+				784481C31C54B39A0073EB2F /* Sources */,
+				784481C41C54B39A0073EB2F /* Frameworks */,
+				784481C51C54B39A0073EB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				784481C91C54B39A0073EB2F /* PBXTargetDependency */,
+			);
+			name = WatSpotsTests;
+			productName = WatSpotsTests;
+			productReference = 784481C71C54B39A0073EB2F /* WatSpotsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		784481D11C54B39A0073EB2F /* WatSpotsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784481E11C54B39A0073EB2F /* Build configuration list for PBXNativeTarget "WatSpotsUITests" */;
+			buildPhases = (
+				784481CE1C54B39A0073EB2F /* Sources */,
+				784481CF1C54B39A0073EB2F /* Frameworks */,
+				784481D01C54B39A0073EB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				784481D41C54B39A0073EB2F /* PBXTargetDependency */,
+			);
+			name = WatSpotsUITests;
+			productName = WatSpotsUITests;
+			productReference = 784481D21C54B39A0073EB2F /* WatSpotsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		784481AB1C54B39A0073EB2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = WatOpenedUp;
+				TargetAttributes = {
+					784481B21C54B39A0073EB2F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Z6L24YMV83;
+					};
+					784481C61C54B39A0073EB2F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Z6L24YMV83;
+						TestTargetID = 784481B21C54B39A0073EB2F;
+					};
+					784481D11C54B39A0073EB2F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Z6L24YMV83;
+						TestTargetID = 784481B21C54B39A0073EB2F;
+					};
+				};
+			};
+			buildConfigurationList = 784481AE1C54B39A0073EB2F /* Build configuration list for PBXProject "WatSpots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 784481AA1C54B39A0073EB2F;
+			productRefGroup = 784481B41C54B39A0073EB2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				784481B21C54B39A0073EB2F /* WatSpots */,
+				784481C61C54B39A0073EB2F /* WatSpotsTests */,
+				784481D11C54B39A0073EB2F /* WatSpotsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		784481B11C54B39A0073EB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784481C11C54B39A0073EB2F /* LaunchScreen.storyboard in Resources */,
+				784481BE1C54B39A0073EB2F /* Assets.xcassets in Resources */,
+				784481BC1C54B39A0073EB2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784481C51C54B39A0073EB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784481D01C54B39A0073EB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		784481AF1C54B39A0073EB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784481B91C54B39A0073EB2F /* ViewController.swift in Sources */,
+				784481B71C54B39A0073EB2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784481C31C54B39A0073EB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784481CC1C54B39A0073EB2F /* WatSpotsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784481CE1C54B39A0073EB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784481D71C54B39A0073EB2F /* WatSpotsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		784481C91C54B39A0073EB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 784481B21C54B39A0073EB2F /* WatSpots */;
+			targetProxy = 784481C81C54B39A0073EB2F /* PBXContainerItemProxy */;
+		};
+		784481D41C54B39A0073EB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 784481B21C54B39A0073EB2F /* WatSpots */;
+			targetProxy = 784481D31C54B39A0073EB2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		784481BA1C54B39A0073EB2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				784481BB1C54B39A0073EB2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		784481BF1C54B39A0073EB2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				784481C01C54B39A0073EB2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		784481D91C54B39A0073EB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		784481DA1C54B39A0073EB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		784481DC1C54B39A0073EB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatSpots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WatOpenedUp.WatSpots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		784481DD1C54B39A0073EB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatSpots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WatOpenedUp.WatSpots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		784481DF1C54B39A0073EB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WatSpotsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WatOpenedUp.WatSpotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatSpots.app/WatSpots";
+			};
+			name = Debug;
+		};
+		784481E01C54B39A0073EB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WatSpotsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WatOpenedUp.WatSpotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatSpots.app/WatSpots";
+			};
+			name = Release;
+		};
+		784481E21C54B39A0073EB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WatSpotsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WatOpenedUp.WatSpotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WatSpots;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		784481E31C54B39A0073EB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WatSpotsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WatOpenedUp.WatSpotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WatSpots;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		784481AE1C54B39A0073EB2F /* Build configuration list for PBXProject "WatSpots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784481D91C54B39A0073EB2F /* Debug */,
+				784481DA1C54B39A0073EB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784481DB1C54B39A0073EB2F /* Build configuration list for PBXNativeTarget "WatSpots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784481DC1C54B39A0073EB2F /* Debug */,
+				784481DD1C54B39A0073EB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		784481DE1C54B39A0073EB2F /* Build configuration list for PBXNativeTarget "WatSpotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784481DF1C54B39A0073EB2F /* Debug */,
+				784481E01C54B39A0073EB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		784481E11C54B39A0073EB2F /* Build configuration list for PBXNativeTarget "WatSpotsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784481E21C54B39A0073EB2F /* Debug */,
+				784481E31C54B39A0073EB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 784481AB1C54B39A0073EB2F /* Project object */;
+}
